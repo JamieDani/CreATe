@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2D82D12B49DD3F00FBA0CC /* ProfileOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D82D02B49DD3F00FBA0CC /* ProfileOptionsView.swift */; };
+		7D341EF92B4F42B80026F7BD /* EditMaterialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D341EF82B4F42B80026F7BD /* EditMaterialsView.swift */; };
+		7D341EFB2B5071380026F7BD /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D341EFA2B5071380026F7BD /* Profile.swift */; };
+		7DA41BD22B49DAF300D61A36 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA41BD12B49DAF300D61A36 /* SettingsView.swift */; };
 		7DC89B912B48A69F002D8A2C /* createApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC89B902B48A69F002D8A2C /* createApp.swift */; };
-		7DC89B932B48A69F002D8A2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC89B922B48A69F002D8A2C /* ContentView.swift */; };
 		7DC89B952B48A6A0002D8A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC89B942B48A6A0002D8A2C /* Assets.xcassets */; };
 		7DC89B982B48A6A0002D8A2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC89B972B48A6A0002D8A2C /* Preview Assets.xcassets */; };
 		7DC89BA22B48A6A0002D8A2C /* createTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC89BA12B48A6A0002D8A2C /* createTests.swift */; };
@@ -36,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D2D82D02B49DD3F00FBA0CC /* ProfileOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionsView.swift; sourceTree = "<group>"; };
+		7D341EF82B4F42B80026F7BD /* EditMaterialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMaterialsView.swift; sourceTree = "<group>"; };
+		7D341EFA2B5071380026F7BD /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7DA41BD12B49DAF300D61A36 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7DC89B8D2B48A69F002D8A2C /* create.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = create.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC89B902B48A69F002D8A2C /* createApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createApp.swift; sourceTree = "<group>"; };
-		7DC89B922B48A69F002D8A2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DC89B942B48A6A0002D8A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC89B972B48A6A0002D8A2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DC89B9D2B48A6A0002D8A2C /* createTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = createTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,9 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				7DC89B902B48A69F002D8A2C /* createApp.swift */,
-				7DC89B922B48A69F002D8A2C /* ContentView.swift */,
 				7DC89BBE2B48F3F6002D8A2C /* DrawingView.swift */,
+				7D341EFA2B5071380026F7BD /* Profile.swift */,
 				7DC89BC02B490648002D8A2C /* ProfilesView.swift */,
+				7D2D82D02B49DD3F00FBA0CC /* ProfileOptionsView.swift */,
+				7D341EF82B4F42B80026F7BD /* EditMaterialsView.swift */,
+				7DA41BD12B49DAF300D61A36 /* SettingsView.swift */,
 				7DC89B942B48A6A0002D8A2C /* Assets.xcassets */,
 				7DC89B962B48A6A0002D8A2C /* Preview Content */,
 			);
@@ -264,9 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DC89BC12B490648002D8A2C /* ProfilesView.swift in Sources */,
+				7DA41BD22B49DAF300D61A36 /* SettingsView.swift in Sources */,
 				7DC89BBF2B48F3F6002D8A2C /* DrawingView.swift in Sources */,
-				7DC89B932B48A69F002D8A2C /* ContentView.swift in Sources */,
+				7D341EFB2B5071380026F7BD /* Profile.swift in Sources */,
+				7D2D82D12B49DD3F00FBA0CC /* ProfileOptionsView.swift in Sources */,
 				7DC89B912B48A69F002D8A2C /* createApp.swift in Sources */,
+				7D341EF92B4F42B80026F7BD /* EditMaterialsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
